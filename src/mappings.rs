@@ -218,10 +218,9 @@ impl Kind {
             Self::HSV293S => "Mirabox HSV293S",
             Self::HSV293SV3 => "Mirabox HSV293SV3",
             Self::HSV293SV3_1005 => "Mirabox HSV293SV3",
-            Self::AKP153 => "Ajazz AKP153",
-            Self::AKP153E => "Ajazz AKP153E",
+            // Display name only. Device ids stay in get_device_id / id_suffix so profiles keep their folder.
+            Self::AKP153 | Self::AKP153E | Self::AKP153E_REV2 => "Sim Deck",
             Self::AKP153R => "Ajazz AKP153R",
-            Self::AKP153E_REV2 => "Ajazz AKP153E (rev. 2)",
             Self::AKP153R_REV2 => "Ajazz AKP153R (rev. 2)",
             Self::MSDONE => "Mars Gaming MSD-ONE",
             Self::MSDONE_1005 => "Mars Gaming MSD-ONE",

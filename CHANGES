@@ -1,0 +1,12 @@
+Sim Deck modifications to opendeck-akp153
+Date: 2026-11-16
+Author: Sim Tuner
+Base: https://github.com/alecweinstein/simtuner-deck-akp153 (fork of 4ndv/opendeck-akp153, GPL-3.0-or-later)
+
+Modified files (GPL-3.0 §5(a)):
+
+- src/mappings.rs — Kind::human_name for AKP153, AKP153E (VID:PID 0300:1010), and AKP153E rev. 2 (0300:3010) returns "Sim Deck". id_suffix and the device id format in src/watcher.rs are not modified, so profile folder keys stay the same.
+- manifest.json — plugin name "Sim Deck", author "Sim Tuner", description credits Andrey Viktorov. Version 0.11.2 so OpenDeck replaces an installed 0.11.1 copy.
+- Cargo.toml — package version 0.11.2.
+
+Other device kinds (AKP153R, Mirabox, and the rest) keep their previous display names.
