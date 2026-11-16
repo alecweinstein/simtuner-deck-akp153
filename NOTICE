@@ -1,0 +1,9 @@
+Sim Deck device plugin
+Modified by Sim Tuner, 2026-11-16.
+
+This plugin is based on opendeck-akp153 by Andrey Viktorov (GPL-3.0-or-later).
+Upstream: https://github.com/4ndv/opendeck-akp153
+This fork: https://github.com/alecweinstein/simtuner-deck-akp153
+
+The user-visible name of the Ajazz AKP153, AKP153E (0300:1010), and AKP153E rev. 2 (0300:3010) is "Sim Deck".
+Device ids are unchanged (namespace 99, v1 suffix 153 / 153E, rev. 2 serial). See CHANGES.

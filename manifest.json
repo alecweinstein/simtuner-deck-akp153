@@ -1,8 +1,8 @@
 {
-  "Name": "Ajazz AKP153 / Mirabox HSV293S",
-  "Description": "Device support plugin for Ajazz AKP153 (+variants)",
-  "Author": "Andrey Viktorov",
-  "Version": "0.11.1",
+  "Name": "Sim Deck",
+  "Description": "Sim Deck device support for Ajazz AKP153 and AKP153E. Based on opendeck-akp153 by Andrey Viktorov (GPL-3.0-or-later).",
+  "Author": "Sim Tuner",
+  "Version": "0.11.2",
   "PluginUUID": "st.lynx.plugins.opendeck-akp153",
   "CodePathLin": "opendeck-akp153-linux",
   "CodePathMac": "opendeck-akp153-mac",
